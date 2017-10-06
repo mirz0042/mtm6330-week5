@@ -2,4 +2,8 @@
 $off-white: #feffff;
 
 // Override bootstrap default
-$body-bg: $off-white;
+$body-bg: blue;
+
+$theme-colors(
+  primary: red; //this overrrides the primary color in the _variables.scss folder under the theme colors section (example)
+)
